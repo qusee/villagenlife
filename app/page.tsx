@@ -41,7 +41,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <img
+            <Image
               alt="Hero"
               className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
               height="300"
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div className="grid gap-1">
-                <img
+                <Image
                   alt="Property"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                   height={310}
@@ -78,7 +78,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="grid gap-1">
-                <img
+                <Image
                   alt="Property"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                   height="550"
@@ -91,7 +91,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="grid gap-1">
-                <img
+                <Image
                   alt="Property"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                   height="550"
@@ -136,7 +136,7 @@ export default function Home() {
               </p>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 alt="Amenities"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
                 height="310"
