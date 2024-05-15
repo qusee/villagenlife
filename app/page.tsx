@@ -225,7 +225,7 @@ import React from 'react';
 
 interface MountainIconProps extends React.SVGProps<SVGSVGElement> { }
 
-export function MountainIcon(props: MountainIconProps) {
+function MountainIcon(props: MountainIconProps) {
   return (
     <svg
       {...props}
